@@ -5,9 +5,9 @@ public class Main {
         persona. setEdad(34);
         persona.setTelefono(56336788);
 
-        System.out.println(persona.getNombre());
-        System.out.println(persona.getEdad());
-        System.out.println(persona.getTelefono());
+        System.out.println("Mi nombre es " + persona.getNombre());
+        System.out.println("Tengo " + persona.getEdad() + "años");
+        System.out.println("Mi telefono es " + persona.getTelefono());
 
     }
 }
